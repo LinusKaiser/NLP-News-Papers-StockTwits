@@ -1,20 +1,8 @@
-
-
-<style>
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-</style>
-
-
-### Short Description
+### **Short Description**
 
 The purpose of this study is to evaluate the most prevalent techniques of natural language processing (NLP) in terms of their advantages and disadvantages for financial sentiment analysis (FSA), as well as to determine whether machine-learning-based approaches to sentiment measurement outperform those that rely on human perception of linguistic features. Additionally, I will outline the differences between these various sentiment analysis techniques by exemplarily showing their application in the financial context to subsequently compare their forecasting performance. To do so, I will use a dataset of messages sent via the online social media website StockTwits as well as a dataset of news headlines. I discover that Machine Learning (ML) improves sentiment classification performance substantially.
 
-### Data Sets
+### **Data Sets**
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Wordcloud.png"> StockTwits Data Set - Word Cloud</img>
@@ -24,13 +12,13 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-### Processing Pipeline
+### **Processing Pipeline**
 <img src="Outputs/Pipeline.png" class="center"></img>
 
 
-### Results
-#### Dictionaries
-#### Harvard-IV
+### **Results**
+#### **Dictionaries**
+#### <u>Harvard-IV</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/Dictionaries/StockTwits - Harvard-IV - none.png"></img>
@@ -42,7 +30,7 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### Loughran and McDonald
+#### <u>Loughran and McDonald</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/Dictionaries/StockTwits - Lo&Mc - none.png"> StockTwits - Loughran and McDonald - Confusion Matrix</img>
@@ -52,8 +40,8 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### Machine Learning
-#### Naive Bayes
+#### **Machine Learning**
+#### <u>Naive Bayes</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Naive Bayes.png"> StockTwits - Naive Bayes - Confusion Matrix</img>
@@ -63,7 +51,7 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### Support Vector Machine
+#### <u>Support Vector Machine</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Support Vector Machine.png"> StockTwits - Support Vector Machine - Confusion Matrix</img>
@@ -73,7 +61,7 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### Logistic Regression
+#### <u>Logistic Regression</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Logistic Regression.png"> StockTwits - Logistic Regression - Confusion Matrix</img>
@@ -83,7 +71,7 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### Multilayer Perceptron
+#### <u>Multilayer Perceptron</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Multilayer Perceptron.png"> StockTwits - Multilayer Perceptron - Confusion Matrix</img>
@@ -93,17 +81,7 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### Multilayer Perceptron
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Multilayer Perceptron.png"> StockTwits - Multilayer Perceptron - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Multilayer Perceptron.png"> News Headlines - Multilayer Perceptron - Confusion Matrix</img>
-    </div>
-</div>
-
-#### Neural Network
+#### <u>Neural Network</u>
 <div class="row">
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Neural Network.png"> StockTwits - Neural Network - Confusion Matrix</img>
@@ -112,3 +90,39 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
         <img src="Outputs/Graphs/News Headlines - Neural Network.png"> News Headlines - Neural Network - Confusion Matrix</img>
     </div>
 </div>
+
+
+<style>
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-bottom:50px;
+}
+
+</style>

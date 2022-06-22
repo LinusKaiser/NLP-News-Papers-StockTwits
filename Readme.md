@@ -21,10 +21,12 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
 #### Harvard-IV
 <div class="row">
     <div class="column">
-        <img src="Outputs/Graphs/Dictionaries/StockTwits - Harvard-IV - none.png"> StockTwits - Harvard-IV - Confusion Matrix</img>
+        <img src="Outputs/Graphs/Dictionaries/StockTwits - Harvard-IV - none.png"></img>
+        <span class="caption">StockTwits - Harvard-IV - Confusion Matrix</span>
     </div>
     <div class="column">
-        <img src="Outputs/Graphs/Dictionaries/News Headlines - Harvard-IV - none.png"> News Headlines - Harvard-IV - Confusion Matrix</img>
+        <img src="Outputs/Graphs/Dictionaries/News Headlines - Harvard-IV - none.png"></img>
+        <span class="caption">News Headlines - Harvard-IV - Confusion Matrix</span>
     </div>
 </div>
 

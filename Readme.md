@@ -1,23 +1,27 @@
-<div>
+#
 ### **Short Description**
 
 The purpose of this study is to evaluate the most prevalent techniques of natural language processing (NLP) in terms of their advantages and disadvantages for financial sentiment analysis (FSA), as well as to determine whether machine-learning-based approaches to sentiment measurement outperform those that rely on human perception of linguistic features. Additionally, I will outline the differences between these various sentiment analysis techniques by exemplarily showing their application in the financial context to subsequently compare their forecasting performance. To do so, I will use a dataset of messages sent via the online social media website StockTwits as well as a dataset of news headlines. I discover that Machine Learning (ML) improves sentiment classification performance substantially.
 
+#
+
 ### **Data Sets**
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Wordcloud.png"> StockTwits Data Set - Word Cloud</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Wordcloud.png"> News Headlines Data Set - Word Cloud</img>
-    </div>
-</div>
+
+| StockTwits Word Cloud   |  News Headlines Word Cloud|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/StockTwits-Wordcloud.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/NewsHeadlines-Wordcloud.png)
+
+
+#
+
 
 ### **Processing Pipeline**
-<img src="Outputs/Pipeline.png" class="center"></img>
+
+![Image](/Outputs/Pipeline.png "Processing Pipeline")
 
 
 ### **Results**
+#
 #### **Dictionaries**
 #### <u>Harvard-IV</u>
 <div class="row">
@@ -41,7 +45,9 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
+#
 #### **Machine Learning**
+#
 #### <u>Naive Bayes</u>
 <div class="row">
     <div class="column">
@@ -94,46 +100,3 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
 </div>
 </div>
 
-
-<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h3 {
-                color: LightBlue;
-            }
-
-            .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-            }
-
-            .img-with-text {
-                text-align: justify;
-                width: [width of img];
-            }
-
-            .img-with-text img {
-                display: block;
-                margin: 0 auto;
-            }
-
-            .column {
-            float: left;
-            width: 45%;
-            padding: 17px;
-            }
-
-            .row::after {
-            content: "";
-            clear: both;
-            display: table;
-            margin-bottom:50px;
-            }
-
-            </style>
-        </div>
-    </foreignObject>
-</svg>

@@ -1,4 +1,4 @@
-8min 25.4 secs
+8 min 25.4 secs
 
 Model Accuracy: 0.8085178475501894
 

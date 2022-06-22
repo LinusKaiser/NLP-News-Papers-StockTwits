@@ -13,90 +13,65 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
 
 
 #
-
-
 ### **Processing Pipeline**
-
 ![Image](/Outputs/Pipeline.png "Processing Pipeline")
-
+#
 
 ### **Results**
 #
 #### **Dictionaries**
 #### <u>Harvard-IV</u>
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/Dictionaries/StockTwits - Harvard-IV - none.png"></img>
-        <span class="caption">StockTwits - Harvard-IV - Confusion Matrix</span>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/Dictionaries/News Headlines - Harvard-IV - none.png"></img>
-        <span class="caption">News Headlines - Harvard-IV - Confusion Matrix</span>
-    </div>
-</div>
+
+| StockTwits Harvard-IV Dictionary   |  News Headlines Harvard-IV Dictionary|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/Dictionaries/StockTwits-Harvard-IV.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/Dictionaries/NewsHeadlines-Harvard-IV.png)
+|Accuracy:  0.5230523690773067|Accuracy:  0.5721745635910225|
 
 #### <u>Loughran and McDonald</u>
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/Dictionaries/StockTwits - Lo&Mc - none.png"> StockTwits - Loughran and McDonald - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/Dictionaries/News Headlines - Lo&Mc - none.png"> News Headlines - Loughran and McDonald - Confusion Matrix</img>
-    </div>
-</div>
+| StockTwits Loughran & McDonald Dictionary   |  News Headlines Loughran & McDonald Dictionary|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/Dictionaries/StockTwits-Lo&Mc.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/Dictionaries/NewsHeadlines-Lo&Mc.png)
+|Accuracy:  0.5375361596009975|Accuracy:  0.5841845386533666|
 
 #
 #### **Machine Learning**
 #
 #### <u>Naive Bayes</u>
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Naive Bayes.png"> StockTwits - Naive Bayes - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Naive Bayes.png"> News Headlines - Naive Bayes - Confusion Matrix</img>
-    </div>
-</div>
+| StockTwits Naive Bayes   |  News Headlines Naive Bayes|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/StockTwits-NaiveBayes.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/NewsHeadlines-NaiveBayes.png)
+|Accuracy: 0.7785857246253798|Accuracy: 0.7737062296905709|
+|8 min 42.6 sec|3 Min 20.8 sec|
 
 #### <u>Support Vector Machine</u>
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Support Vector Machine.png"> StockTwits - Support Vector Machine - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Support Vector Machine.png"> News Headlines - Support Vector Machine - Confusion Matrix</img>
-    </div>
-</div>
+| StockTwits Support Vector Machine   |  News Headlines Support Vector Machine|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/StockTwits-SupportVectorMachine.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/NewsHeadlines-SupportVectorMachine.png)
+|Accuracy: 0.6277|Accuracy: 0.6901|
+|79 min 28.9 sec|57 min 23.9 sec|
+
 
 #### <u>Logistic Regression</u>
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Logistic Regression.png"> StockTwits - Logistic Regression - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Logistic Regression.png"> News Headlines - Logistic Regression - Confusion Matrix</img>
-    </div>
-</div>
+| StockTwits Logistic Regression   |  News Headlines Logistic Regression|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/StockTwits-LogisticRegression.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/NewsHeadlines-LogisticRegression.png)
+|Accuracy: 0.8244248523230233|Accuracy: 0.7961816070591451|
+|5 min 35.4 sec| 2min 10 sec|
+
 
 #### <u>Multilayer Perceptron</u>
-<div class="row">
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Multilayer Perceptron.png"> StockTwits - Multilayer Perceptron - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Multilayer Perceptron.png"> News Headlines - Multilayer Perceptron - Confusion Matrix</img>
-    </div>
-</div>
+| StockTwits Multilayer Perceptron   |  News Headlines Multilayer Perceptron|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/StockTwits-MultilayerPerceptron.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/NewsHeadlines-MultilayerPerceptron.png)
+|Accuracy: 0.8085178475501894|Accuracy: 0.7768529795204634|
+|8 min 25.4 sec|3 min 9.7 sec|
 
 
-<div class="row">
-<h3>#### <u>Neural Network</u> </h3>
-    <div class="column">
-        <img src="Outputs/Graphs/StockTwits - Neural Network.png"> StockTwits - Neural Network - Confusion Matrix</img>
-    </div>
-    <div class="column">
-        <img src="Outputs/Graphs/News Headlines - Neural Network.png"> News Headlines - Neural Network - Confusion Matrix</img>
-    </div>
-</div>
-</div>
+#### <u>Neural Network</u>
+| StockTwits Neural Network   |  News Headlines Neural Network|
+| ------------- | ------------- |
+![Image](/Outputs/Graphs/StockTwits-NeuralNetwork.png "StockTwits Data Set - Word Cloud") | ![News Headlines Data Set - Word Cloud](/Outputs/Graphs/NewsHeadlines-NeuralNetwork.png)
+|Accuracy: 0.830794497488041|Accuracy: 0.7621|
+|63 min 48.3 sec|58 min 24.7 sec|
+
 

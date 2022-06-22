@@ -13,7 +13,7 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
 </div>
 
 ### Processing Pipeline
-<img src="Outputs/Pipeline.png"> Data Processing Pipeline</img>
+<img src="Outputs/Pipeline.png" class="center"></img>
 
 
 ### Results
@@ -101,4 +101,11 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+</style>

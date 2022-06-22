@@ -1,0 +1,64 @@
+3 Min 20.8sec
+
+Model Accuracy: 0.7737062296905709
+
+# Training model for f1_macro
+
+Best set of parameters were found on the following set:
+
+{'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+
+Grid scores on development set:
+
+0.636 (+/-0.004) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.526 (+/-0.002) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.596 (+/-0.001) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.595 (+/-0.002) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.506 (+/-0.002) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.606 (+/-0.001) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+0.740 (+/-0.004) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.742 (+/-0.002) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.720 (+/-0.001) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.738 (+/-0.003) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.730 (+/-0.002) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.718 (+/-0.002) for {'NB_clf__alpha': 1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+0.702 (+/-0.003) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.708 (+/-0.000) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.711 (+/-0.003) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.686 (+/-0.002) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.681 (+/-0.001) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.712 (+/-0.003) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+0.736 (+/-0.004) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.751 (+/-0.002) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.719 (+/-0.001) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.743 (+/-0.004) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.758 (+/-0.002) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.724 (+/-0.001) for {'NB_clf__alpha': 0.1, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+0.700 (+/-0.004) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.733 (+/-0.003) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.708 (+/-0.001) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.694 (+/-0.003) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.732 (+/-0.002) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.714 (+/-0.001) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+0.728 (+/-0.005) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.734 (+/-0.001) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.706 (+/-0.002) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.736 (+/-0.006) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.744 (+/-0.000) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.711 (+/-0.002) for {'NB_clf__alpha': 0.01, 'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+              precision    recall  f1-score   support
+
+    NEGATIVE     0.7708    0.8347    0.8015     35666
+    POSITIVE     0.7860    0.7098    0.7459     30499
+
+    accuracy                         0.7771     66165
+   macro avg     0.7784    0.7722    0.7737     66165
+weighted avg     0.7778    0.7771    0.7759     66165
+
+

@@ -1,0 +1,32 @@
+Dictionary Based Approached Performances
+
+
+#####################################
+
+News Headlines - Harvard-IV - none
+Accuracy:  0.4079052369077307
+
+News Headlines - Harvard-IV
+Accuracy:  0.5721745635910225
+
+News Headlines - Lo&Mc - none
+Accuracy:  0.2418354114713217
+
+News Headlines - Lo&Mc
+Accuracy:  0.5841845386533666
+
+
+#####################################
+
+
+StockTwits - Harvard-IV - none
+Accuracy:  0.30386533665835413
+
+StockTwits - Harvard-IV
+Accuracy:  0.5230523690773067
+
+StockTwits - Lo&Mc - none
+Accuracy:  0.16253865336658355
+
+StockTwits - Lo&Mc
+Accuracy:  0.5375361596009975

@@ -1,0 +1,38 @@
+57min 23.9sec
+
+Model Accuracy: 0.6901
+
+# Tuning hyper-parameters for f1_macro
+
+Best parameters set found on development set:
+
+{'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+
+Grid scores on development set:
+
+0.672 (+/-0.006) for {'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.671 (+/-0.002) for {'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.588 (+/-0.021) for {'tfidf__norm': 'l1', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.667 (+/-0.009) for {'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.671 (+/-0.001) for {'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.598 (+/-0.009) for {'tfidf__norm': 'l1', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+0.696 (+/-0.004) for {'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 1)}
+0.703 (+/-0.005) for {'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (1, 2)}
+0.649 (+/-0.005) for {'tfidf__norm': 'l2', 'tfidf__use_idf': True, 'vect__ngram_range': (2, 2)}
+0.688 (+/-0.005) for {'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 1)}
+0.700 (+/-0.002) for {'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (1, 2)}
+0.648 (+/-0.004) for {'tfidf__norm': 'l2', 'tfidf__use_idf': False, 'vect__ngram_range': (2, 2)}
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+              precision    recall  f1-score   support
+
+     Bearish     0.7273    0.6819    0.7039     35666
+     Bullish     0.6533    0.7010    0.6763     30499
+
+    accuracy                         0.6907     66165
+   macro avg     0.6903    0.6915    0.6901     66165
+weighted avg     0.6932    0.6907    0.6912     66165

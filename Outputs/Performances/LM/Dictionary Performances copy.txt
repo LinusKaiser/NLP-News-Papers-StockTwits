@@ -1,0 +1,38 @@
+Dictionary Based Approached Performances
+
+
+#####################################
+
+News Headlines - Harvard-IV - none
+Accuracy:  0.4079052369077307
+
+News Headlines - Harvard-IV
+Accuracy:  0.5721745635910225
+
+News Headlines - Lo&Mc - none
+Accuracy:  0.2418354114713217
+
+News Headlines - Lo&Mc
+Accuracy:  0.5841845386533666
+
+The Harvard-IV dictionary for the classification of news headlines with the additional possible category "neutral" or none" had an accuracy of about 40,79%. While the same dictionary with the possible categories of "positive" or negative" had an accuracy of 57,22%. So we can see that the accuracy of the dictionary is better if there are less attributes to be classified for. The same observation is true for the Lo&Mc  dictionary. The accuracy of Loc&Mc was about 24,28% if it classified for all three attributes and 58,42% for just "positive" and "negative". From the above results we can see that it makes sense to just use the two attributes of "positive" and "negative" for the sentiment classification process and for example sort out the neutral ones completly. 
+
+
+#####################################
+
+
+StockTwits - Harvard-IV - none
+Accuracy:  0.30386533665835413
+
+StockTwits - Harvard-IV
+Accuracy:  0.5230523690773067
+
+StockTwits - Lo&Mc - none
+Accuracy:  0.16253865336658355
+
+StockTwits - Lo&Mc
+Accuracy:  0.5375361596009975
+
+For StockTwits Posts the Harvard-IV dictionary and the use of the three attributes "neutral", "positive" and "negative" had an accuracy of 30,39%. If the tester used the dictionary with just the attributes "positive" and "negative" the accuracy was about 52,31%. The same was observed at the Lo&Mc dictionary. Three attributes lead to an accuracy of 16,25% while two attributes lead to an accuracy of 53,75%. 
+
+So nevertheless for what kind of data set and with what dictionary you perform the analysis the accuracy is as expected always higher if you use just "positive" and "negative" as an attribute. The two dictionaries were in all of the analysis more accurate. I suspect that this is happening because News Headlines are more "formal" or use the same words more often while StockTwits are more colloquial language and therefore harder to analyse. Additionally because words with spelling errors can not be classified by the dicitionaires. Newspapers are more curious that their headlines have no spelling errors. Since StockTwits come from private persons and are sometimes anonymous the community does not care so much about the spelling errors. 

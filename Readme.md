@@ -1,3 +1,4 @@
+<div>
 ### **Short Description**
 
 The purpose of this study is to evaluate the most prevalent techniques of natural language processing (NLP) in terms of their advantages and disadvantages for financial sentiment analysis (FSA), as well as to determine whether machine-learning-based approaches to sentiment measurement outperform those that rely on human perception of linguistic features. Additionally, I will outline the differences between these various sentiment analysis techniques by exemplarily showing their application in the financial context to subsequently compare their forecasting performance. To do so, I will use a dataset of messages sent via the online social media website StockTwits as well as a dataset of news headlines. I discover that Machine Learning (ML) improves sentiment classification performance substantially.
@@ -81,8 +82,9 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
     </div>
 </div>
 
-#### <u>Neural Network</u>
+
 <div class="row">
+<h3>#### <u>Neural Network</u> </h3>
     <div class="column">
         <img src="Outputs/Graphs/StockTwits - Neural Network.png"> StockTwits - Neural Network - Confusion Matrix</img>
     </div>
@@ -90,39 +92,48 @@ The purpose of this study is to evaluate the most prevalent techniques of natura
         <img src="Outputs/Graphs/News Headlines - Neural Network.png"> News Headlines - Neural Network - Confusion Matrix</img>
     </div>
 </div>
+</div>
 
 
-<style>
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            h3 {
+                color: LightBlue;
+            }
 
-.img-with-text {
-    text-align: justify;
-    width: [width of img];
-}
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
 
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
-}
+            .img-with-text {
+                text-align: justify;
+                width: [width of img];
+            }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 45%;
-  padding: 5px;
-}
+            .img-with-text img {
+                display: block;
+                margin: 0 auto;
+            }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  margin-bottom:50px;
-}
+            .column {
+            float: left;
+            width: 45%;
+            padding: 17px;
+            }
 
-</style>
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            margin-bottom:50px;
+            }
+
+            </style>
+        </div>
+    </foreignObject>
+</svg>
